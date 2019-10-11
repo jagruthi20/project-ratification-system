@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title">PROJECT RATIFICATION SYSTEM</string>
+    <string name="welcome_text">WELCOME TO UNIVERSITY PROJECT RATIFICATION SYSTEM</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_fac_su">Faculty Sign Up</string>
+    <string name="btn_stu_su">Student Sign Up</string>
+    <string name="new_user">New User? Sign Up</string>
+    <string name="name">Full Name</string>
+    <string name="roll">Roll Number</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="branch">Branch(ex:CSE,IT)</string>
+    <string name="guide">Guide Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="register">register</string>
+    <string name="student_sign_up">STUDENT SIGN UP</string>
+    <string name="faculty_sign_up">FACULTY SIGN UP</string>
+    <string name="role">Select the  roles:</string>
+    <string name="role1">Project Guide</string>
+    <string name="role2">Project In-Charge</string>
+    <string name="role3">Head Of the Department</string>
+</resources>
+

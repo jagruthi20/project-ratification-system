@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:background="@color/textcolor"
+            android:textSize="30sp"
+            android:text="@string/faculty_sign_up"/>
+
+        <EditText
+            android:id="@+id/firstname_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_action_fullname"
+            android:drawableStart="@drawable/ic_action_fullname"
+            android:hint="@string/name"
+            android:inputType="text"
+            android:textColorHint="@color/textcolor"/>
+
+        <EditText
+            android:id="@+id/lastname_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_action_roll"
+            android:drawableStart="@drawable/ic_action_roll"
+            android:inputType="text"
+            android:textColorHint="@color/textcolor"
+            android:hint="@string/roll"/>
+
+        <EditText
+            android:id="@+id/email_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/ic_action_email"
+            android:drawableLeft="@drawable/ic_action_email"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/textcolor" />
+
+        <EditText
+            android:id="@+id/password_edittext"
+            android:autofillHints="@string/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:inputType="textPassword"
+            android:drawableStart="@drawable/ic_action_pass"
+            android:drawableLeft="@drawable/ic_action_pass"
+            android:hint="@string/password"
+            android:textColorHint="@color/textcolor"/>
+
+        <EditText
+            android:id="@+id/branch_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:inputType="text"
+            android:drawableLeft="@drawable/ic_action_branch"
+            android:drawableStart="@drawable/ic_action_branch"
+            android:hint="@string/branch"
+            android:textColorHint="@color/textcolor"/>
+
+        <EditText
+            android:id="@+id/phone_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_action_phone"
+            android:drawableStart="@drawable/ic_action_phone"
+            android:inputType="phone"
+            android:hint="@string/phone"
+            android:textColorHint="@color/textcolor"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="20dp"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/role"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/textcolor"/>
+
+            <CheckBox android:id="@+id/checkbox_meat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/role1"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/textcolor"
+                android:buttonTint="@color/textcolor"
+                android:onClick="onCheckboxClicked"/>
+            <CheckBox android:id="@+id/checkbox_cheese"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/role2"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/textcolor"
+                android:buttonTint="@color/textcolor"
+                android:onClick="onCheckboxClicked"/>
+            <CheckBox android:id="@+id/checkbox_chees"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/role3"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/textcolor"
+                android:buttonTint="@color/textcolor"
+                android:onClick="onCheckboxClicked"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/student_signup_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:text="@string/register"/>
+
+    </LinearLayout>
+
+</ScrollView>
